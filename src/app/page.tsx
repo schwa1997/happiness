@@ -12,7 +12,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 flex gap-8 items-center justify-center flex-wrap">
       
       {posts.map((post) => (
-        <PostCard key={post.id} title={post.title} img={post.imgs[0]} content={post.content} />
+        <PostCard key={post.id} title={post.title} img={post.imgs[0]} content={post.content} initialLiked={false} />
       ))}
     </div>
   );
