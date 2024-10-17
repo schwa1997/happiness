@@ -11,7 +11,7 @@ interface HappyCardProps {
   rate: number;
 }
 
-const HappyCard: React.FC<HappyCardProps> = ({ id, title, content, audio, imgs, tag, rate }) => {
+const HappyCard: React.FC<HappyCardProps> = ({  title, content, audio, imgs, tag, rate }) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg">
       <div 
